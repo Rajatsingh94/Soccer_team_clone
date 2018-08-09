@@ -186,7 +186,7 @@ footer .footer_discl {
 
 .featured_number {
     font-size: 270px;
-    color: #ffffff;
+    color: #000000;
     transform: translate(260px,170px);
     position: absolute;
 }
@@ -200,17 +200,18 @@ footer .footer_discl {
 }
 .featured_first {
     position: absolute;
-    background: #0e1731;
-    color: #ffffff;
+    font-size: 280px;
+    /* background: #000000; */
+    color: #000000;
     font-size: 92px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 0px 20px;
 }
 
 .featured_second {
     position: absolute;
-    background: #0e1731;
-    color: #ffffff;
+    /* background: #0e1731; */
+    color: #000000;
     font-size: 92px;
     text-transform: uppercase;
     padding: 0px 20px;
@@ -221,7 +222,7 @@ footer .footer_discl {
 ===============================*/
 
 .home_matches_wrapper {
-    background: #98c5e9;
+    background: #B22222 ;
     margin-top:9px;
     padding: 50px 0px;
 }
@@ -681,4 +682,10 @@ footer .footer_discl {
     color: #d5ebfe;
     text-align: center;
     margin-top: 200px;
+}
+
+.match{
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+    
 }
