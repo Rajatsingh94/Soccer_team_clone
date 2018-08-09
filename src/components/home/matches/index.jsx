@@ -1,17 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import Block from './blocks';
 const Matches = () => {
     return (
         <div className="home_matches_wrapper">
-            <div class="container">
+            <div className="container">
              <div  className="match">
              Matches
              </div>
 
-            BLOCK
+           <Block />
 
-            <div class="match">
+            <div className="match">
                 <Link to="/the_team">See More</Link> 
             </div>
 
